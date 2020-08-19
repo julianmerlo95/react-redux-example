@@ -14,10 +14,10 @@ function App() {
           <button onClick={() => dispatch(decrement())}> Decrement</button>
           <button onClick={() => dispatch(increment())}>Increment</button>
           <h2>{result}</h2>
-          <button onClick={() => dispatch(logginUser())}> Cerrar Sesion</button>
+          <button onClick={() => dispatch(logginUser())}> Sign off</button>
         </div>
       ) : (
-        <button onClick={() => dispatch(logginUser())}> Iniciar Sesion</button>
+        <button onClick={() => dispatch(logginUser())}> Log in</button>
       )}
     </div>
   );
